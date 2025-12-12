@@ -1,13 +1,13 @@
-# 🎬 Projeto de Machine Learning --- Predição de Visualizações no YouTube
+#  Projeto de Machine Learning 
 
-**Disciplina:** Machine Learning\
-**Professor:** Durval Lins de Siqueira Neto\
+**Disciplina:** Machine Learning
+**Professor:** Durval Lins de Siqueira Neto
 **Período:** 4º Período --- Sala C
 
 ### 👥 Integrantes do Grupo
 
--   **Arthur Moraes Barbosa Silva** -- 01714787\
--   **João Álison Araujo de Moura** -- 01762578\
+-   **Arthur Moraes Barbosa Silva** -- 01714787
+-   **João Álison Araujo de Moura** -- 01762578
 -   **José Gabriel Ferreira Alves** -- 01700051
 
 ## 📌 Objetivo do Projeto
@@ -18,11 +18,11 @@ YouTube**, utilizando variáveis como categoria, título, duração,
 engajamento e outras características do vídeo.
 
 O repositório contém todas as etapas do pipeline completas: - Análise
-exploratória (EDA)\
-- Pré-processamento\
-- Treinamento de modelos\
-- Otimização de hiperparâmetros\
-- Avaliação final\
+exploratória (EDA)
+- Pré-processamento
+- Treinamento de modelos
+- Otimização de hiperparâmetros
+- Avaliação final
 - Relatório técnico
 
 ## 📂 Estrutura do Repositório
@@ -44,13 +44,13 @@ exploratória (EDA)\
 
 ## 🧪 Tecnologias Utilizadas
 
--   Python 3.10+\
--   Pandas\
--   NumPy\
--   Scikit-learn\
--   Matplotlib\
--   Seaborn\
--   Joblib\
+-   Python 3.10+
+-   Pandas
+-   NumPy
+-   Scikit-learn
+-   Matplotlib
+-   Seaborn
+-   Joblib
 -   Jupyter Notebook
 
 ## 🚀 Como Executar
@@ -70,9 +70,9 @@ exploratória (EDA)\
 
 ### 4️⃣ Ordem de execução
 
-1.  01_EDA.ipynb\
-2.  02_Preprocessamento.ipynb\
-3.  03_Modelagem.ipynb\
+1.  01_EDA.ipynb
+2.  02_Preprocessamento.ipynb
+3.  03_Modelagem.ipynb
 4.  04_Otimizacao.ipynb
 
 ## 🏆 Resultado Final
