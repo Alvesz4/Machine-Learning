@@ -1,63 +1,85 @@
-Projeto de Machine Learning — Predição de Visualizações do YouTube
-Disciplina: Machine Learning
-Professor: Durval Lins de Siqueira Neto
-Período: 4º Período, Sala C
+# 🎬 Projeto de Machine Learning --- Predição de Visualizações no YouTube
 
-Integrantes:
-Arthur Moraes Barbosa Silva – 01714787
-João Álison Araujo de Moura – 01762578
-José Gabriel Ferreira Alves – 01700051
+**Disciplina:** Machine Learning\
+**Professor:** Durval Lins de Siqueira Neto\
+**Período:** 4º Período --- Sala C
 
-Dataset utilizado: youtube_views.csv
-Repositório do projeto: [https://github.com/Alvesz4/Machine-Learning](https://github.com/Alvesz4/Machine-Learning)
+### 👥 Integrantes do Grupo
 
-Objetivo do Projeto
-Este projeto teve como objetivo desenvolver um modelo de Machine Learning capaz de prever a quantidade de visualizações de vídeos no YouTube utilizando variáveis presentes no dataset youtube_views.csv, como categoria, título, duração, engajamento e outras características do vídeo.
-O repositório contém todas as etapas do pipeline completas: análise exploratória dos dados (EDA), pré-processamento, modelagem, otimização, avaliação final e geração do relatório técnico.
+-   **Arthur Moraes Barbosa Silva** -- 01714787\
+-   **João Álison Araujo de Moura** -- 01762578\
+-   **José Gabriel Ferreira Alves** -- 01700051
 
-Estrutura do Repositório
-.
-├── README.md                     Descrição do projeto
-├── data/
-│   ├── raw/                      Dados originais
-│   └── processed/                Dados tratados
-├── notebooks/
-│   ├── 01_EDA.ipynb              Análise exploratória
-│   ├── 02_Preprocessamento.ipynb Preparação dos dados
-│   ├── 03_Modelagem.ipynb        Treinamento dos modelos
-│   └── 04_Otimizacao.ipynb       Ajuste de hiperparâmetros
-├── models/
-│   └── modelo_final.joblib       Modelo final treinado
-├── docs/
-│   └── RELATORIO_FINAL.md        Relatório final completo
-└── requirements.txt              Dependências do projeto
+## 📌 Objetivo do Projeto
 
-Tecnologias Utilizadas
-Python 3.10 ou superior
-Pandas
-NumPy
-Scikit-learn
-Matplotlib e Seaborn
-Joblib
-Jupyter Notebook
+Este projeto tem como finalidade desenvolver um modelo de **Machine
+Learning capaz de prever a quantidade de visualizações de vídeos do
+YouTube**, utilizando variáveis como categoria, título, duração,
+engajamento e outras características do vídeo.
 
-Como Executar o Projeto
+O repositório contém todas as etapas do pipeline completas: - Análise
+exploratória (EDA)\
+- Pré-processamento\
+- Treinamento de modelos\
+- Otimização de hiperparâmetros\
+- Avaliação final\
+- Relatório técnico
 
-1. Clonar o repositório:
-   git clone [https://github.com/Alvesz4/Machine-Learning](https://github.com/Alvesz4/Machine-Learning)
-   cd Machine-Learning
+## 📂 Estrutura do Repositório
 
-2. Instalar as dependências:
-   pip install -r requirements.txt
+    ├── README.md
+    ├── data/
+    │   ├── raw/
+    │   └── processed/
+    ├── notebooks/
+    │   ├── 01_EDA.ipynb
+    │   ├── 02_Preprocessamento.ipynb
+    │   ├── 03_Modelagem.ipynb
+    │   └── 04_Otimizacao.ipynb
+    ├── models/
+    │   └── modelo_final.joblib
+    ├── docs/
+    │   └── RELATORIO_FINAL.md
+    └── requirements.txt
 
-3. Executar os notebooks:
-   jupyter notebook notebooks/
+## 🧪 Tecnologias Utilizadas
 
-4. Executar os arquivos na seguinte ordem:
-   01_EDA.ipynb
-   02_Preprocessamento.ipynb
-   03_Modelagem.ipynb
-   04_Otimizacao.ipynb
+-   Python 3.10+\
+-   Pandas\
+-   NumPy\
+-   Scikit-learn\
+-   Matplotlib\
+-   Seaborn\
+-   Joblib\
+-   Jupyter Notebook
 
-Resultado Final
-O modelo que apresentou melhor desempenho foi o Random Forest Regressor otimizado utilizando RandomizedSearchCV.
+## 🚀 Como Executar
+
+### 1️⃣ Clonar o repositório
+
+    git clone https://github.com/Alvesz4/Machine-Learning
+    cd Machine-Learning
+
+### 2️⃣ Instalar dependências
+
+    pip install -r requirements.txt
+
+### 3️⃣ Executar notebooks
+
+    jupyter notebook notebooks/
+
+### 4️⃣ Ordem de execução
+
+1.  01_EDA.ipynb\
+2.  02_Preprocessamento.ipynb\
+3.  03_Modelagem.ipynb\
+4.  04_Otimizacao.ipynb
+
+## 🏆 Resultado Final
+
+O modelo com melhor desempenho foi o **Random Forest Regressor**
+otimizado com **RandomizedSearchCV**.
+
+## 📎 Repositório
+
+https://github.com/Alvesz4/Machine-Learning
